@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/share_menu"
+        android:title="share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/about_menu"
+        android:title="about"
+        android:icon="@drawable/ic_error_outline_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/exit_menu"
+        android:title="Exit"
+        android:icon="@drawable/ic_out_blue_24dp"
+        app:showAsAction="ifRoom"/>
+
+</menu>

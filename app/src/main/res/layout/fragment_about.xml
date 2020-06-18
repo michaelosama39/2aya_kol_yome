@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_space_background_vector_21627882"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/email_TV_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="25sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/emailText_TV_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="maikl.osama39@gmail.com  "
+        android:textSize="15sp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/instagram" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtube"/>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twitter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_BTN_about"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
